@@ -1,0 +1,31 @@
+.footer {
+    min-height: 10%;
+    background: #C2CECC;
+    position: relative;
+    bottom: 0;
+    right: 0;
+  } 
+
+  .f-logo {
+    width: 12%;
+    padding-right: 5%;
+    padding-top: 3%;
+  }
+  
+  .i-logo {
+    width: 12%;
+    padding-right: 5%;
+    padding-top: 3%;
+  }
+  .p-logo {
+    width: 7%;
+    padding-top: 3%;
+   
+  }
+  .text2{
+    
+    margin-top: 5%;
+    font-family: bodoni;
+    font-size: 1em;
+    color: white;
+  }
