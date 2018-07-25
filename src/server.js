@@ -28,7 +28,7 @@ app.use(express.static('public'));
 let db;
 
 // Replace the URL below with the URL for your database
-const url =  'mongodb://user:password@mongo_address:mongo_port/clicks';
+const url =  'mongodb://127.0.0.1:27017';
 
 MongoClient.connect(url, (err, database) => {
   if(err) {

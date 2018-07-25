@@ -8,7 +8,7 @@ const Card = (props) => (
       <div className="card border-secondary mb-3" style={{width: "100%"}}>
         <div className="card-header">
         { props.fontName }
-        <a href="" id= {props.like} className="btn btn-secondary btn-sm like">Like</a>
+        <a href="" id= "liked" className="btn btn-secondary btn-sm like">Like</a>
         </div>
         <div className="card-body">
           <p className={`card-text ${props.font.toLowerCase()} `} style={{ fontFamily: props.font }}>{ props.inputText }</p>
