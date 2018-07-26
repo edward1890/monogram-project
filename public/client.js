@@ -1,11 +1,11 @@
-console.log('Client-side code running');
+// console.log('Client-side code running');
 
-var button = document.getElementById("liked");
+// var button = document.getElementById("liked");
 
-button.addEventListener('click', function(event){
-  console.log(event)
-  event.preventDefault;
-});
+// button.addEventListener('click', function(event){
+//   console.log(event)
+//   event.preventDefault;
+// });
 
 // if(el) {
 //   console.log('button was clicked');  
