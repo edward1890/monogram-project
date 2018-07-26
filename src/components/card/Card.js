@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 
 const Card = (props) => (
  
-  
     <div className="col-sm-10 col-md-12 cardz">
       <div className="card border-secondary mb-3" style={{width: "100%"}}>
         <div className="card-header">
         { props.fontName }
-        <a href="" id= "liked" className="btn btn-secondary btn-sm like">Like</a>
+        <button id= "liked" className="btn btn-secondary btn-sm like" onClick={(evt) => {
+          props.someFunction(evt, props.fontName)
+        }}>Like</button>
         </div>
-        <div className="card-body">
+        <div className="card-body"> 
           <p className={`card-text ${props.font.toLowerCase()} `} style={{ fontFamily: props.font }}>{ props.inputText }</p>
           <a href={ props.url } className="btn btn-secondary"> Buy Now</a>
           

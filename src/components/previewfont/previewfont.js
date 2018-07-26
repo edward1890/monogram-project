@@ -47,7 +47,11 @@ class Form extends Component {
           };
     }
 
-
+someFunction = (event, name) => {
+  // Save favorite
+  console.log(name);
+  event.preventDefault();
+}
 
 
 handleInputChange = event => {
@@ -112,6 +116,7 @@ handleInputChange = event => {
                       font={ font.font }
                       fontName={ font.fontName }
                       inputText={ this.state.preview }
+                      someFunction={ this.someFunction }
                   />
        
               </div>
